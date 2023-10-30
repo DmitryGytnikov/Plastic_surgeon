@@ -1,32 +1,54 @@
 @font-face {
-  font-family: "Gotham Pro";
+  font-family: "helveticaneuecyr";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-display: swap;
-  src: local("Gotham Pro Regular"),
-    local("Gotham-Pro-Regular"),
-    url("../fonts/GothamPro.woff2") format("woff2"),
-    url("../fonts/GothamPro.woff") format("woff");
+  src: local("helveticaneuecyr light"),
+    local("helveticaneuecyr-light"),
+    url("../fonts/helveticaneuecyr-light.woff2") format("woff2"),
+    url("../fonts/helveticaneuecyr-light.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Gotham Pro";
+  font-family: "helveticaneuecyr";
+  font-style: normal;
+  font-weight: 550;
+  font-display: swap;
+  src: local("helveticaneuecyr medium1"),
+    local("helveticaneuecyr-medium1"),
+    url("../fonts/helveticaneuecyr-medium1.woff2") format("woff2"),
+    url("../fonts/helveticaneuecyr-medium1.woff") format("woff");
+}
+
+@font-face {
+  font-family: "rosamarena";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("Gotham Pro Medium"),
-    local("Gotham-Pro-Medium"),
-    url("../fonts/GothamPro-Medium.woff2") format("woff2"),
-    url("../fonts/GothamPro-Medium.woff") format("woff");
+  src: local("rosamarena"),
+    local("rosa-marena"),
+    url("../fonts/rosamarena.woff2") format("woff2"),
+    url("../fonts/rosamarena.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Gotham Pro";
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 300;
   font-display: swap;
-  src: local("Gotham Pro Bold"),
-    local("Gotham-Pro-Bold"),
-    url("../fonts/GothamPro-Bold.woff2") format("woff2"),
-    url("../fonts/GothamPro-Bold.woff") format("woff");
+  src: local("Inter Light"),
+    local("Inter-Light"),
+    url("../fonts/Inter-Light.woff2") format("woff2"),
+    url("../fonts/Inter-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Inter Medium"),
+    local("Inter-Medium"),
+    url("../fonts/Inter-Medium.woff2") format("woff2"),
+    url("../fonts/Inter-Medium.woff") format("woff");
 }

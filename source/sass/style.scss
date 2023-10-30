@@ -66,14 +66,14 @@ ul {
 }
 
 .page {
-  font-family: "Gotham Pro", "Arial", sans-serif;
+  font-family: "helveticaneuecyr", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  color: #1f3140;
+  font-weight: 300;
+  color: #5f6366;
   // font-size: 16px;
   // line-height: 28px;
 
-  background-color: #ffffff;
+  background-color: #eaeef3;
 
   min-width: 320px; // появляется нижняя прокрутка
 
@@ -96,7 +96,7 @@ ul {
 
 // container
 .container {
-  max-width: 1360px;
+  max-width: 1525px;
   margin: 0 auto;
   padding: 0 20px;
 
@@ -104,3 +104,6 @@ ul {
     padding: 0 10px;
   }
 }
+
+
+// footer
