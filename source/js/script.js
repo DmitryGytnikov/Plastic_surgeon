@@ -28,14 +28,14 @@ actionSliders.forEach((el) => {
       780: {
         // centeredSlides: false,
         centeredSlides: true,
-        slidesPerView: 2,
+        slidesPerView: 1,
         // spaceBetween: 0,
         spaceBetween: 0,
       },
       // when window width is >= 1680px
       1680: {
         centeredSlides: true,
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 78.5,
       }
     }

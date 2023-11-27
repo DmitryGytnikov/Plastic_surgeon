@@ -311,3 +311,68 @@ ul {
 }
 
 // footer ^^^
+
+
+// breadcrumbs vvv
+
+.breadcrumbs {
+  margin-bottom: 44px;
+
+  // @include mobile {
+  //   margin-bottom: 0;
+  //   padding-bottom: 20px;
+  // }
+}
+
+.breadcrumbs__list-item {
+  display: inline-block;
+  margin-right: -5px;
+
+  & a {
+    display: block;
+    font-size: 14px;
+    line-height: normal;
+    color: #595959;
+    letter-spacing: 1.26px;
+    padding: 12px 11px;
+    text-transform: uppercase;
+
+    position: relative;
+    сcursor: pointer;
+    transition: all 0.2s ease;
+
+    &:not([href]) {
+      color: #000000;
+    }
+
+
+    &[href]:hover,
+    &[href]:focus,
+    &[href]:active {
+      color: #000000;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 1px;
+      height: 12.5px;
+      background: #5f6366;
+      border-radius: 50%;
+      top: 14px;
+      left: 0;
+    }
+  }
+
+  &:first-child a {
+    padding-left: 0;
+
+    &::before {
+      width: 0;
+      height: 0;
+    }
+  }
+}
+
+
+// breadcrumbs ^^^
